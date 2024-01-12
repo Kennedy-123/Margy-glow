@@ -1,0 +1,53 @@
+.product__card {
+  background-color: rgb(175, 174, 174);
+  box-shadow: 5px 5px 6px black;
+  position: relative;
+  width: 20rem;
+  text-align: center;
+  margin: 5px 0px 5px 5px;
+  border-radius: 10px;
+}
+
+.grid a{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.product__outOfStock{
+    color: red;
+    font-weight: bolder;
+    font-size: medium;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.grid {
+  display: flex;
+  padding: 30px;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.price{
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.logo {
+  width: 4rem;
+}
+
+.product__image{
+    width: 20rem;
+    height: 13rem;
+}
+
+@media (max-width: 768px){
+  .grid{
+    justify-content: center;
+  }
+}
